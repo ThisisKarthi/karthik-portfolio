@@ -8,6 +8,7 @@ export default function Hero() {
       <div className="hero-orb2" />
 
       <div className="hero-content">
+        <div className="hero-avatar">KM</div>
         <span className="hero-tag">
           <span className="hero-dot" />
           Business Analyst · Singapore · Open to Opportunities
@@ -40,15 +41,15 @@ export default function Hero() {
             <span className="stat-label">Years Experience</span>
           </div>
           <div>
-            <span className="stat-num">10+</span>
+            <span className="stat-num sb">10+</span>
             <span className="stat-label">Government &amp; Enterprise Clients</span>
           </div>
           <div>
-            <span className="stat-num">100%</span>
+            <span className="stat-num sc">100%</span>
             <span className="stat-label">Requirement Coverage (RTM)</span>
           </div>
           <div>
-            <span className="stat-num">15+</span>
+            <span className="stat-num sd">15+</span>
             <span className="stat-label">Releases Delivered</span>
           </div>
         </div>

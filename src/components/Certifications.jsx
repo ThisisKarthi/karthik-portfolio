@@ -26,16 +26,15 @@ export default function Certifications() {
             href={cert.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="skill-card"
-            style={{ textDecoration: 'none', display: 'block' }}
+            className="cert-card"
           >
-            <div className="skill-icon"><FiAward size={22} /></div>
-            <div className="skill-card-title">{cert.title}</div>
+            <div className="cert-icon"><FiAward size={20} /></div>
+            <div className="cert-title">{cert.title}</div>
             <div className="skill-card-chips">
-              <span className="chip chip-accent">{cert.issuer}</span>
-              <span className="chip chip-accent">{cert.date}</span>
+              <span className="chip chip-amber">{cert.issuer}</span>
+              <span className="chip chip-amber">{cert.date}</span>
             </div>
-            <div style={{ marginTop: '0.75rem', fontSize: '0.8rem', color: 'var(--muted)', display: 'flex', alignItems: 'center', gap: '0.3rem' }}>
+            <div className="cert-verify">
               Verify certificate <FiExternalLink size={12} />
             </div>
           </a>

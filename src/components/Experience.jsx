@@ -29,6 +29,7 @@ const jobs = [
       'Conducted competitor benchmarking across Binance, Polygon, and Ethereum, identifying 10+ feature gaps that informed backlog prioritisation.',
     ],
     tags: ['BRD/FRD', 'RTM', 'MoSCoW', 'JIRA', 'SQL', 'Agile', 'UAT', 'Healthcare', 'HRMS'],
+    variant: 'cb',
   },
 ]
 
@@ -43,7 +44,7 @@ export default function Experience() {
 
       <div className="timeline">
         {jobs.map((job, i) => (
-          <div key={i} className="timeline-item">
+          <div key={i} className={`timeline-item ${job.variant || ''}`}>
             <div className="timeline-dot" />
             <div className="timeline-card">
               <div className="timeline-header">
