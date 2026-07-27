@@ -1,32 +1,34 @@
 const jobs = [
   {
-    role: 'Product Analyst & Implementation Lead',
+    role: 'Business Analyst & Implementation Lead',
     company: 'Aptiv8 IT Solutions',
     location: 'UBI Techpark, Singapore',
     date: 'Nov 2024 – Feb 2026',
     bullets: [
-      'Managed end-to-end CMMS and IoT implementations for ~10 enterprise and Singapore government clients including NUS, SIT, MOH, MHA, NTU, LTA, and MTI.',
-      'Built Power BI dashboards using DAX measures and Power Query to track fault trends, SLA compliance, and operational KPIs — enabling data-driven facility management.',
-      'Executed SQL-based bulk data uploads and data cleaning operations for asset, location, and operational datasets across multiple client environments.',
+      'Elicited and documented requirements from 10 Singapore government and enterprise clients (NUS, SIT, SUPCT, MOH, MHA, NTU, LTA, MTI, Republic Plaza, ST Logistics) via stakeholder interviews, workshops, and JAD sessions — producing BRDs, FRDs, use cases, user stories, and acceptance criteria, reducing requirement change requests by ~30% post-sign-off.',
+      'Maintained a Requirements Traceability Matrix (RTM) across the full SDLC, achieving 100% requirement coverage and zero missed deliverables across all client engagements.',
+      'Managed 2 parallel implementation streams (CMMS and IoT-enabled CMMS) covering maintenance workflows, purchase orders, and asset/location management — delivered on time for all 10 clients.',
+      'Facilitated sprint planning and backlog grooming across Agile sprints, contributing to a 20% reduction in sprint carry-overs through clear acceptance criteria.',
+      'Executed SQL-based bulk data uploads and cleaning for asset and location datasets across 10 client environments, reducing data migration errors by ~40%.',
       'Delivered IoT deployments covering energy, water, BTU, and IAQ monitoring — onboarded Milesight UC300, HF2411, and RS485 gateways at LTA Buildings, Republic Plaza, and MTI.',
-      'Translated complex stakeholder requirements into structured product specifications; coordinated delivery, operations, and engineering teams for on-time, on-scope delivery.',
-      'Conducted competitor research on CMMS and facility management platforms to benchmark product features and inform roadmap discussions.',
+      'Led end-to-end UAT for all 10 clients; authored test cases and acceptance criteria resulting in zero critical defects at go-live, with sign-off on first submission in 8 of 10 projects.',
+      'Conducted competitor benchmarking across 5+ CMMS platforms, producing insights that directly informed 3 product roadmap decisions.',
     ],
-    tags: ['Power BI', 'DAX', 'SQL', 'PostgreSQL', 'IoT', 'CMMS', 'Agile', 'JIRA', 'Stakeholder Management'],
+    tags: ['BRD/FRD', 'RTM', 'Agile', 'SQL', 'Power BI', 'IoT', 'CMMS', 'Stakeholder Management', 'UAT'],
   },
   {
-    role: 'Software Tester & QA Analyst',
+    role: 'Business Analyst & QA Analyst — Blockchain Product Division',
     company: 'Clarisco Pvt. Ltd.',
     location: 'Madurai, India',
-    date: 'Jan 2022 – Nov 2024',
+    date: 'Nov 2022 – Oct 2024',
     bullets: [
-      'Designed and executed test plans, test cases, and regression scenarios for centralised and decentralised cryptocurrency SaaS platforms.',
-      'Performed functional testing across login flows, token purchase workflows, and smart contract deployments for blockchain-based products.',
-      'Collaborated in Agile/Scrum sprints including sprint planning, standups, retrospectives, and backlog grooming to resolve defects efficiently.',
-      'Conducted competitor benchmarking across Binance, Polygon, and Ethereum platforms to identify feature gaps and support product decisions.',
-      'Delivered post-release client walkthroughs, validated acceptance criteria, and maintained requirement documentation aligned to business specs.',
+      'Blockchain & DApps Platform: analysed requirements for 2 blockchain platforms (centralised exchange + DApps), translating business needs into structured test cases and acceptance criteria covering 200+ scenarios; reduced defect leakage to production by ~35%.',
+      'Patient Support Program (Healthcare CRM): translated complex clinical workflows into BRDs/FRDs and user stories; reduced turnaround time by 18% while maintaining healthcare data privacy compliance and 100% requirement coverage via RTM.',
+      'HRMS (ERP): gathered cross-functional HR requirements into BRDs, FRDs, and process flow diagrams; reduced HR processing time by 30% through workflow optimisation and process re-engineering.',
+      'Coordinated stakeholder sign-off and defect resolution via JIRA and Postman, maintaining traceability across 15+ releases with bug-free delivery on all major milestones.',
+      'Conducted competitor benchmarking across Binance, Polygon, and Ethereum, identifying 10+ feature gaps that informed backlog prioritisation.',
     ],
-    tags: ['QA Testing', 'Test Plans', 'Regression Testing', 'Blockchain SaaS', 'Agile', 'Scrum', 'JIRA'],
+    tags: ['BRD/FRD', 'RTM', 'MoSCoW', 'JIRA', 'SQL', 'Agile', 'UAT', 'Healthcare', 'HRMS'],
   },
 ]
 
@@ -36,7 +38,7 @@ export default function Experience() {
       <div className="section-label">Career</div>
       <h2 className="section-title">Professional Experience</h2>
       <p className="section-sub">
-        4 years across IoT deployments, CMMS platforms, and blockchain SaaS — from QA to Product implementation lead.
+        3.2+ years across CMMS/IoT platforms, blockchain SaaS, healthcare CRM, and HRMS — from requirements to UAT and go-live.
       </p>
 
       <div className="timeline">

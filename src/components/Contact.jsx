@@ -11,8 +11,8 @@ export default function Contact() {
         </h2>
 
         <p style={{ color: 'var(--muted)', fontSize: '1rem', lineHeight: 1.8, marginTop: '0.5rem' }}>
-          I&apos;m actively seeking <strong style={{ color: 'var(--text)' }}>Product Analyst</strong> and{' '}
-          <strong style={{ color: 'var(--text)' }}>Data Analyst</strong> roles in Singapore.
+          I&apos;m actively seeking <strong style={{ color: 'var(--text)' }}>Business Analyst</strong> and{' '}
+          <strong style={{ color: 'var(--text)' }}>BI/Data Analyst</strong> roles in Singapore.
           If you&apos;re building data-driven products and need someone who turns complex datasets into
           clear, actionable decisions — let&apos;s talk.
         </p>
@@ -29,7 +29,7 @@ export default function Contact() {
           >
             <FiLinkedin size={15} /> LinkedIn Profile
           </a>
-          <a href="/Karthikeyan_ProductAnalyst_Resume_2.pdf" download className="c-link">
+          <a href="/Karthikeyan_BusinessAnalyst_Resume.pdf" download className="c-link">
             <FiDownload size={15} /> Download Resume
           </a>
         </div>

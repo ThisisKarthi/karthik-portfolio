@@ -1,33 +1,33 @@
 const cards = [
   {
-    icon: '📊',
-    title: 'Analytics & BI',
-    chips: ['Power BI', 'DAX', 'Power Query', 'Tableau', 'KPI Dashboard Design', 'Data Visualization'],
+    icon: '📝',
+    title: 'Requirements & Documentation',
+    chips: ['BRD', 'FRD', 'Use Cases', 'User Stories', 'Acceptance Criteria', 'RTM', 'MoSCoW Prioritisation'],
   },
   {
-    icon: '🗄️',
-    title: 'SQL & Databases',
-    chips: ['SQL · PostgreSQL', 'DBeaver', 'Bulk Data Management', 'Data Cleaning', 'Query Optimisation'],
-  },
-  {
-    icon: '🐍',
-    title: 'Python & Data',
-    chips: ['Python', 'Pandas', 'Data Profiling', 'Statistical Analysis', 'Jupyter Notebooks'],
-  },
-  {
-    icon: '📋',
-    title: 'Product Management',
-    chips: ['Requirements Analysis', 'User Story Definition', 'Product Backlog', 'UAT', 'Competitor Research'],
+    icon: '🔁',
+    title: 'Business Analysis',
+    chips: ['Requirements Elicitation', 'Gap Analysis', 'As-Is / To-Be Analysis', 'Business Process Re-engineering', 'Root Cause Analysis'],
   },
   {
     icon: '⚡',
-    title: 'Agile & Delivery',
-    chips: ['Agile', 'Scrum', 'JIRA', 'Sprint Planning', 'Retrospectives', 'Stakeholder Management'],
+    title: 'Methodologies & Delivery',
+    chips: ['Agile / Scrum', 'SDLC', 'UAT', 'Sprint Planning', 'Backlog Management', 'Change Management'],
+  },
+  {
+    icon: '🗄️',
+    title: 'Technical Tools',
+    chips: ['SQL · PostgreSQL', 'SQL Server', 'Postman', 'GitHub', 'JIRA'],
+  },
+  {
+    icon: '📊',
+    title: 'Data & BI',
+    chips: ['Power BI', 'Advanced Excel', 'Data Analysis', 'Data Cleaning', 'KPI Tracking', 'Competitor Research'],
   },
   {
     icon: '🌡️',
-    title: 'IoT & CMMS',
-    chips: ['Milesight UC300', 'HF2411', 'RS485 Gateways', 'LoRa Sensors', 'IAQ Monitoring', 'Asset Management'],
+    title: 'IoT & CMMS / ERP',
+    chips: ['Milesight UC300', 'HF2411', 'RS485 Gateways', 'IAQ Monitoring', 'Dynamics 365 CRM & ERP', 'Power Apps', 'Power Automate'],
   },
 ]
 
@@ -37,7 +37,7 @@ export default function Skills() {
       <div className="section-label">Capabilities</div>
       <h2 className="section-title">Skills &amp; Expertise</h2>
       <p className="section-sub">
-        A full-stack product analyst toolkit — from IoT sensor hardware to executive Power BI dashboards.
+        A full-stack Business Analyst toolkit — from stakeholder requirements to IoT/CMMS delivery and BI reporting.
       </p>
 
       <div className="skills-grid">

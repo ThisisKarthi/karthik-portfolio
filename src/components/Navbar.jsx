@@ -39,7 +39,7 @@ export default function Navbar() {
           ))}
         </ul>
 
-        <a href="/Karthikeyan_ProductAnalyst_Resume_2.pdf" download className="nav-cta">
+        <a href="/Karthikeyan_BusinessAnalyst_Resume.pdf" download className="nav-cta">
           <FiDownload size={12} style={{ marginRight: 4 }} /> Resume
         </a>
 
@@ -55,7 +55,7 @@ export default function Navbar() {
           <a key={l.href} href={l.href} onClick={() => setOpen(false)}>{l.label}</a>
         ))}
         <a
-          href="/Karthikeyan_ProductAnalyst_Resume_2.pdf"
+          href="/Karthikeyan_BusinessAnalyst_Resume.pdf"
           download
           style={{ color: 'var(--accent)' }}
           onClick={() => setOpen(false)}

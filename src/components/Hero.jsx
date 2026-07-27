@@ -10,46 +10,46 @@ export default function Hero() {
       <div className="hero-content">
         <span className="hero-tag">
           <span className="hero-dot" />
-          Product Analyst · Singapore · Open to Opportunities
+          Business Analyst · Singapore · Open to Opportunities
         </span>
 
         <h1>
-          Turning <span className="grad">IoT &amp; SaaS data</span>
-          <br />into product decisions.
+          Turning <span className="grad">complex requirements</span>
+          <br />into delivered products.
         </h1>
 
         <p className="hero-desc">
-          Product Analyst &amp; Implementation Lead with 4+ years delivering end-to-end
-          implementations for Singapore government and enterprise clients. I bridge
-          raw operational data and strategic decisions — through Power BI dashboards,
-          SQL analysis, and product thinking.
+          Business Analyst &amp; Implementation Lead with 3.2+ years across IoT-enabled
+          CMMS platforms, ERP/CRM, and blockchain/DApps applications for Singapore
+          Government bodies and global enterprise clients — from requirements
+          elicitation and BRDs/FRDs through UAT, delivery, and BI reporting.
         </p>
 
         <div className="hero-btns">
           <a href="#projects" className="btn-primary">
             View My Work <FiArrowRight size={15} />
           </a>
-          <a href="/Karthikeyan_ProductAnalyst_Resume_2.pdf" download className="btn-outline">
+          <a href="/Karthikeyan_BusinessAnalyst_Resume.pdf" download className="btn-outline">
             <FiDownload size={15} /> Download Resume
           </a>
         </div>
 
         <div className="hero-stats">
           <div>
-            <span className="stat-num">4+</span>
+            <span className="stat-num">3.2+</span>
             <span className="stat-label">Years Experience</span>
           </div>
           <div>
-            <span className="stat-num">13+</span>
-            <span className="stat-label">Enterprise Clients</span>
-          </div>
-          <div>
-            <span className="stat-num">22K+</span>
-            <span className="stat-label">Data Points Analysed</span>
-          </div>
-          <div>
             <span className="stat-num">10+</span>
-            <span className="stat-label">Dashboards Built</span>
+            <span className="stat-label">Government &amp; Enterprise Clients</span>
+          </div>
+          <div>
+            <span className="stat-num">100%</span>
+            <span className="stat-label">Requirement Coverage (RTM)</span>
+          </div>
+          <div>
+            <span className="stat-num">15+</span>
+            <span className="stat-label">Releases Delivered</span>
           </div>
         </div>
       </div>

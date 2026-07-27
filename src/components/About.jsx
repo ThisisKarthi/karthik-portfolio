@@ -1,23 +1,23 @@
 const skillGroups = [
   {
-    title: 'Analytics & BI',
+    title: 'Requirements & Documentation',
     type: 'chip-accent',
-    chips: ['Power BI', 'DAX', 'Power Query', 'SQL · PostgreSQL', 'Excel (Advanced)', 'Tableau', 'KPI Dashboard Design'],
+    chips: ['BRD', 'FRD', 'Use Cases', 'User Stories', 'Acceptance Criteria', 'RTM', 'MoSCoW Prioritisation'],
   },
   {
-    title: 'Data Engineering',
+    title: 'Methodologies',
     type: 'chip-amber',
-    chips: ['Data Cleaning', 'Bulk Data Management', 'Python · Pandas', 'Data Profiling', 'Trend Analysis'],
+    chips: ['Agile / Scrum', 'SDLC', 'UAT', 'Sprint Planning', 'Backlog Management', 'Change Management'],
   },
   {
-    title: 'Product & Delivery',
+    title: 'Technical & BI Tools',
     type: 'chip-green',
-    chips: ['Requirements Analysis', 'User Story Definition', 'Product Backlog', 'UAT', 'Agile · Scrum', 'JIRA', 'Stakeholder Mgmt'],
+    chips: ['SQL (PostgreSQL, SQL Server)', 'Power BI', 'Advanced Excel', 'Postman', 'GitHub', 'JIRA'],
   },
   {
-    title: 'IoT & CMMS',
+    title: 'Domain Knowledge',
     type: 'chip-muted',
-    chips: ['Milesight UC300', 'HF2411', 'RS485', 'Energy Sensors', 'IAQ Monitoring', 'Asset Management'],
+    chips: ['IoT & CMMS Implementation', 'Blockchain & DApps Testing', 'Facility Management', 'ERP/CRM (Dynamics 365)'],
   },
 ]
 
@@ -29,33 +29,37 @@ export default function About() {
 
         <div className="about-bio">
           <h2 className="section-title">
-            Product Analyst with a{' '}
+            Business Analyst with a{' '}
             <span className="grad">data-first mindset.</span>
           </h2>
 
           <p>
-            I'm a Product Analyst and Implementation Lead with 4 years of experience
-            spanning IoT, CMMS, and B2B SaaS platforms. My work sits at the intersection
-            of data analysis, product thinking, and stakeholder communication.
+            I'm a Business Analyst and Implementation Lead with 3.2 years of experience
+            in end-to-end requirements elicitation, stakeholder management, and SDLC
+            delivery across IoT-enabled CMMS platforms, ERP/CRM implementations, and
+            blockchain/DApps-driven enterprise applications.
           </p>
           <p>
-            At Aptiv8 IT Solutions in Singapore, I led end-to-end implementations for
-            government and enterprise clients — translating messy operational datasets
-            into Power BI dashboards that drive real facility management decisions.
+            At Aptiv8 IT Solutions in Singapore, I led requirements and implementation
+            for a CMMS &amp; IoT facility management platform across 10 Singapore
+            Government and enterprise clients — including NUS, SIT, MOH, MHA, NTU, LTA,
+            MTI, and Republic Plaza — producing BRDs, FRDs, and RTMs, and driving UAT
+            to zero critical defects at go-live.
           </p>
           <p>
-            Before that, I spent nearly three years as a QA &amp; Software Tester at a
-            blockchain SaaS company, which gave me a strong foundation in product
-            quality, Agile delivery, and cross-functional collaboration.
+            Before that, I spent two years at Clarisco Pvt. Ltd. as a Business Analyst
+            &amp; QA Analyst across blockchain/DApps, healthcare CRM, and HRMS/ERP
+            engagements — translating complex, cross-functional requirements into
+            structured BRDs, FRDs, and test plans.
           </p>
 
           <div className="about-highlight">
             <h4>🔬 Currently Building</h4>
             <p>
-              End-to-end Finance &amp; Fraud Detection analytics on a 1M+ row Kaggle
-              dataset — PostgreSQL database, Python (Pandas) profiling, Power BI
-              dashboard with DAX, and this portfolio website. Aimed at demonstrating
-              production-level data pipeline skills for Product &amp; Data Analyst roles.
+              Strengthening my BI toolkit through a Coursera Business Intelligence
+              course — applying Power BI and SQL to real analysis work — alongside this
+              portfolio, built to demonstrate practical BA + data analysis skills for
+              Business Analyst and BI Analyst roles in Singapore.
             </p>
           </div>
         </div>
