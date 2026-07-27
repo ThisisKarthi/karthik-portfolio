@@ -5,6 +5,7 @@ import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Clients from './components/Clients'
 import Skills from './components/Skills'
+import Certifications from './components/Certifications'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
@@ -18,6 +19,7 @@ export default function App() {
       <Projects />
       <Clients />
       <Skills />
+      <Certifications />
       <Contact />
       <Footer />
     </>
